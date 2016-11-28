@@ -28,3 +28,4 @@ poi = []
         if (left < 0 and right > 0) or (left > 0 and right < 0):
             poi.append(intervalaverage)
     poi = [round(i, 3) for i in poi]
+print(poi)
